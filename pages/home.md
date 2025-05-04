@@ -1,21 +1,7 @@
-
-<style>
-.columns {
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.column {
-  flex: 1;
-  min-width: 250px;
-}
-.column h2 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.25em;
-  margin-top: 0;
-}
-</style>
+---
+title: Welcome to Shaarei Tefillah
+layout: home
+---
 
 <div class="columns">
 
@@ -68,3 +54,4 @@
   </div>
 
 </div>
+
