@@ -1,7 +1,4 @@
----
-title: Welcome to Shaarei Tefillah
-layout: home
----
+
 
 <div class="columns">
 
