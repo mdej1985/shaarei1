@@ -1,22 +1,74 @@
 ---
-layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
-permalink: /
-eleventyNavigation:
-  key: Home
-  order: 0
+title: Welcome to Shaarei Tefillah
+layout: home
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.dev), with deployment to [Netlify](https://www.netlify.com).
+<style>
+.columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1;
+  min-width: 250px;
+}
+.column h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25em;
+  margin-top: 0;
+}
+</style>
 
-Includes [Decap CMS](https://www.decapcms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+<div class="columns">
 
-[Log in to the Decap CMS dashboard](/admin/)
+  <!-- Left Column: Announcements -->
+  <div class="column">
+    <h2>Announcements</h2>
+    <ul>
+      <li>Welcome to Shaarei Tefillah. Here you will find Shiurim times, weekday and Shabbos Davening Times, as well as important announcements.</li>
+    </ul>
+  </div>
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+  <!-- Middle Column: Shiurim -->
+  <div class="column">
+    <h2>Shiurim</h2>
+    <ul>
+      <li>More details coming soon...</li>
+    </ul>
+  </div>
 
-Or click the button below to deploy your own copy of this project to Netlify.
+  <!-- Right Column: Davening Times -->
+  <div class="column">
+    <h2>זמני תפילה לימי החול</h2>
+    <p><strong>Weekday Davening Times</strong></p>
+    <ul>
+      <li>שחרית א' - 6:40</li>
+      <li>שחרית ב' - 8:25</li>
+      <li>1:10 - (בזמנו) מנחה גדולה</li>
+      <li>6:45 - מנחה קטנה</li>
+      <li>8:30 - מעריב</li>
+    </ul>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+    <br><br>
+
+    <h2>זמני תפילה לשבת</h2>
+    <p><strong>פרשת תזריע - מצורה</strong></p>
+    <ul>
+      <li>Mincha – 5:36</li>
+      <li>Candle Lighting – 5:56–6:43</li>
+      <li>Mincha – 7:03</li>
+      <li>Brachos – 8:15</li>
+      <li>Shochen Ad – 8:50</li>
+      <li>Mincha – 4:05</li>
+      <li>Navi Shiur (Shoftim) – 4:35</li>
+      <li>Avos U'Banim – 5:00</li>
+      <li>Chaburos – 5:45</li>
+      <li>Mincha – 6:00</li>
+      <li>Shkiyah – 7:24</li>
+      <li>Maariv – 7:59</li>
+    </ul>
+  </div>
+
+</div>
