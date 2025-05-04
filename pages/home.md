@@ -20,9 +20,9 @@
 
   <!-- Right Column: Davening Times -->
   <div class="column">
-   <div style="text-align: right;">
-  <h2 dir="rtl">זמני תפילה לימי החול</h2>
-  <p dir="ltr"><strong>Weekday Davening Times</strong></p>
+   <div class="text-right">
+  <h2 class="rtl">זמני תפילה לימי החול</h2>
+  <p class="ltr"><strong>Weekday Davening Times</strong></p>
 </div>
     <ul>
       <li>שחרית א' - 6:40</li>
